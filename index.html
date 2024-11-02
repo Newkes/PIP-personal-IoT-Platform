@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <script src="functionality.js"></script>
+        
+        <title>PiP: Personal Iot Platform</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../public_html/Wallpapers/aesthetic.css">
+        <style id="css1">
+            
+            
+    body{
+        background-image: url("../public_html/images/afjfhbji.jpg");
+        margin: 0px;
+    }
+    #main {
+        display: flex;
+        flex-direction: column;
+        background-color: #42bfdd;
+        opacity: .5;
+        height: 910px;
+        border-bottom-color: #bfab25;
+        border-color: #bfab25;
+        
+    }
+    .bordered{
+         border-radius: 20px;
+        border-color: #bfab25;
+        border-style: solid;
+        border-width: 4px;
+    }
+    #header{
+        display: flex;
+        flex-direction:row;
+        background-color: #2a2a2a;
+        opacity: 0.9;
+    }
+    #ydria-logo{
+        background-color: grey;
+        height: 80px;
+        width: 80px;
+    }
+    #meat{
+        display: flex;
+        flex-direction: column;
+        width: 1800px;
+        color: white;
+        margin: 1px;
+    }
+    #pip-logo{
+        background-color: grey;
+        height: 80px;
+        width: 80px;
+    }
+    #torso{
+        display: flex;
+        flex-direction:row;
+        align-items: start ;
+       
+    }
+    .BC-LV1{padding: 50px;
+        background-color: #367584;
+        align-items: start;
+        width: 40%;
+        height: 709 px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+        border-color: #bfab25;
+        border-width: 2px;
+        color: white;
+        font-weight: 900;
+    }
+    #prime{
+        display: inline-grid;
+        gap: 10px;
+        grid-auto-flow: column;
+        margin-right: 20px;
+        height: 690px;
+    }
+    #prime > div >button{
+        background-color: #33636e;
+        height: 100px;
+        width: 100px;
+        opacity: 1;
+        color: white;
+        font-weight: 900;
+        border-radius: 20px;
+        border-color: #bfab25;
+        border-style: solid;
+        border-width: 4px;
+    }
+    #sub{
+        margin-left: 5px;
+        
+    }
+    #sub> div{
+        margin: 5px;
+        padding: 5px;
+    }
+    .notf{
+        font-size: x-small;
+    }
+    #ping{
+        
+    }
+    .test_obj{
+        text-align: center;
+    }
+        </style>
+    </head>
+    <body onresize="autoresize()">
+       
+        <div id="background"><!-- background --></div>
+        <div id="main" class="flex-container">
+            <div id="header" class="header-content"> <!--header-->
+            <image id="ydria-logo" src="../public_html/images/ydria.png" alt="ydria logo">
+            <div id="meat" >
+                <h1>place holder</h1>
+            </div>
+            <image id="pip-logo"  src="../public_html/images/pip.png" alt="PIP logo">           
+        </div>
+        
+        <div id="torso" ><!--torso-->
+            <div id="prime" class="BC-LV1">
+                
+                <div><button id="ping" class="BC-PRMBTN bordered"  onclick="test()">ping</button></div>
+                <div><button class="BC-PRMBTN bordered" onclick="update()"> test</button></div>
+                <div><button class="BC-PRMBTN bordered" onclick="update()"> test</button></div>
+                <div><button class="BC-PRMBTN bordered" > item</button></div>
+                
+                
+                
+            </div>
+            <div id="sub" class="BC-LV1">
+
+<div class="bordered notf">
+<h3>[Date: YYYY-MM-DD]</h3>
+<p>Notification: Nicholas Stalwarden of House Stalwart, Warden of the Stalwart Mountains, has entered the Temple of Vestal, a sacred site restricted to women only.</p>
+</div>
+<div class="bordered notf"> 
+<h3>[Date: YYYY-MM-DD]</h3>
+<p>Notification: A temple maiden named Hestia observes Nicholas in prayer at the temple's hearth and approaches to address his presence within the forbidden space.</p>
+</div>  
+<div class="bordered notf"> 
+<h3>[Date: YYYY-MM-DD]</h3>
+<p>Notification: Nicholas identifies himself to Hestia and states that he has entered the temple to seek the blessing of the goddess Vestal for the welfare of his children and household.</p>
+</div>
+<div class="bordered notf">
+<h3>[Date: YYYY-MM-DD]</h3>
+<p>Notification: Hestia informs Nicholas of the restriction on men entering the temple and specifies that it is the duty of women, particularly maidens, to perform such rites.</p>
+</div>  
+<div class="bordered notf"> 
+<h3>[Date: YYYY-MM-DD]</h3>
+<p>Notification: Nicholas explains that he has assumed this responsibility in the absence of his deceased wife, who had previously performed these rites.</p>
+</div>
+<div class="bordered notf">
+<h3>[Date: YYYY-MM-DD]</h3>
+<p>Notification: Hestia acknowledges Nicholas&rsquo;s circumstances and, noting the absence of other maidens, offers to assist him with the rites to uphold temple protocol and respect for Vestal.</p>
+</div> 
+<div class="bordered notf"> 
+<h3>[Date: YYYY-MM-DD]</h3>
+<p>Notification: Nicholas expresses hesitation, but Hestia confirms her willingness to proceed, emphasizing the importance of conducting the rites properly.</p>
+</div>
+<div class="bordered notf">
+<h3>[Date: YYYY-MM-DD]</h3>
+<p>Notification: Hestia and Nicholas commence the ritual rites together, ensuring the temple&rsquo;s traditions are upheld under the exceptional circumstances.</p>
+</div>
+            </div>
+        </div>
+    </div>
+        <!--
+        <div id="tail"><!--tail--
+            <p class="test_obj">tail</p>
+        </div> cumming soon
+        -->
+    </body>
+</html>
