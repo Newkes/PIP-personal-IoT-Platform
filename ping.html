@@ -8,6 +8,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
         <title>ping</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../public_html/Wallpapers/aesthetic.css">
+       
         <!-- included CSS for content of div"prime" -->
         <style>
             :root {
@@ -23,7 +25,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
 html {
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(-170deg,#064997 20%,#105ba7);
+  background-image: linear-gradient(-170deg,rgba(6, 73, 151, .5) 20%,rgba(16, 91, 167, .5));
   background-position: 100%;
 }
 
@@ -42,7 +44,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  min-height: 100vh;
+  min-height: 75vh;
 }
 
 .links__list {
@@ -170,22 +172,9 @@ body {
                 width:  100%;
         
             }
-        .BC-LV1{
-        padding: 50px;
-        background-color: #367584;
-        align-items: start;
-        width: 48%;
-        
-        margin-top: 20px;
-        margin-left: auto;
-        margin-right: auto;
-        overflow: hidden;
-        border-color: #bfab25;
-        border-width: 2px;
-        color: white;
-        font-weight: 900;
-    }
     #prime{
+        height: 95%;
+        width: 40%;
         display: inline-grid;
         gap: 10px;
         grid-auto-flow: column;
@@ -200,10 +189,7 @@ body {
         opacity: 1;
         color: white;
         font-weight: 900;
-        border-radius: 20px;
-        border-color: #bfab25;
-        border-style: solid;
-        border-width: 4px;
+       
     }
     #sub{
         margin-left: 5px;
@@ -214,14 +200,16 @@ body {
         padding: 5px;
     }
     .notf{
+        background-color: rgba(38,39,38,.5);
         font-size: x-small;
+        color: white;
     }
     </style>
         <!-- ported CSS from index, for containers "prime" and "sub" 
         source: https://codepen.io/dbenmore/pen/ExVxeyv-->
     </head>
     <body>
-        <div id="prime" class="BC-LV1">
+        <div id="prime" class="BC-LV1 bordered">
                   
 <div class="links">
   <ul class="links__list" style="--item-total:5">
@@ -272,7 +260,7 @@ body {
                 
     </div>
     
-    <div id="sub" class="BC-LV1">
+    <div id="sub" class="BC-LV1 bordered">
 
 <div class="bordered notf">
 <h3>[Date: YYYY-MM-DD]</h3>
@@ -298,6 +286,7 @@ body {
 <h3>[Date: YYYY-MM-DD]</h3>
 <p>Notification: Hestia acknowledges Nicholas&rsquo;s circumstances and, noting the absence of other maidens, offers to assist him with the rites to uphold temple protocol and respect for Vestal.</p>
 </div> 
+<!--
 <div class="bordered notf"> 
 <h3>[Date: YYYY-MM-DD]</h3>
 <p>Notification: Nicholas expresses hesitation, but Hestia confirms her willingness to proceed, emphasizing the importance of conducting the rites properly.</p>
@@ -306,6 +295,7 @@ body {
 <h3>[Date: YYYY-MM-DD]</h3>
 <p>Notification: Hestia and Nicholas commence the ritual rites together, ensuring the temple&rsquo;s traditions are upheld under the exceptional circumstances.</p>
 </div>
+-->
             </div>
   </body>
 </html>

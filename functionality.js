@@ -18,7 +18,7 @@ var element_presence;
 let status = true;
 
 function defaultscreen(){
-document.getElementById("content_container").src === link[1];
+document.getElementById("content_container").src === link[2];
         
 
     }
